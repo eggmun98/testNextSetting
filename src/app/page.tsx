@@ -5,7 +5,7 @@ import { container } from './example.css';
 
 export default function Home() {
   const [qqq, setQqq] = useState(11);
-  useEffect(() => setQqq(1));
+  useEffect(() => setQqq(1 + '1'));
   return (
     <main>
       <div className={container}>test</div>
