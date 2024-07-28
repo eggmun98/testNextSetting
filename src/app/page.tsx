@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { container } from './example.css';
 
 export default function Home() {
