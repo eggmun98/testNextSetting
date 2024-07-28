@@ -5,7 +5,7 @@ import { container } from './example.css';
 
 export default function Home() {
   const [qqq, setQqq] = useState(11);
-  useEffect(() => setQqq(1 + '1' + 3333), [qqq]);
+  useEffect(() => setQqq(1 + '1' + 3333 + '1111'), [qqq]);
   return (
     <main>
       <div className={container}>test</div>
